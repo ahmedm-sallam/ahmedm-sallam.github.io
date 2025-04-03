@@ -129,7 +129,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'dark',
+    defaultTheme: 'winter',
 
     disableSwitch: false,
 
@@ -184,7 +184,7 @@ const CONFIG = {
     },
   },
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
