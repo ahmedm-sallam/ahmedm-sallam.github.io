@@ -14,7 +14,7 @@ const CONFIG = {
           title: 'Al-Maqraa',
           description:
             'Al-Maqraa aims to bridge the gap by providing a technologically advanced solution that utilizes speech recognition and analysis to objectively evaluate Quranic recitations.',
-          imageUrl: '/Al-Maqraa.png', // Correct path assuming the file is in the public directory
+          imageUrl: '/Sallam-Portfolio/Al-Maqraa.png', // Prepend the base URL
           link: 'https://al-maqraa.onrender.com/home',
         },
       ],
@@ -65,7 +65,7 @@ const CONFIG = {
     email: 'AhmedM.SallamIbrahim@Gmail.com',
   },
   resume: {
-    fileUrl: '/Ahmed_Sallam.pdf', // Corrected path: remove '/public'
+    fileUrl: '/Sallam-Portfolio/Ahmed_Sallam.pdf', // Replace <your-deployed-domain> with your actual domain
   },
   skills: [
     'C++',
@@ -108,16 +108,6 @@ const CONFIG = {
       companyLink: 'https://www.worex.com/',
     },
   ],
-  // comments: [
- /*
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],*/
   educations: [
     {
       institution: 'Cairo University - Faculty of Computers and Artificial Intelligence',
@@ -125,37 +115,15 @@ const CONFIG = {
       from: 'September 2021',
       to: 'May 2024',
     },
-  ],/*
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],*/
-  // Display articles from your medium or dev account. (Optional)
+  ],
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'ahmedm.sallamibrahim', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
     id: '',
     snippetVersion: 6,
@@ -163,18 +131,12 @@ const CONFIG = {
   themeConfig: {
     defaultTheme: 'dark',
 
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: false,
 
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
 
-    // Display the ring in Profile picture
     displayAvatarRing: true,
 
-    // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
@@ -211,7 +173,6 @@ const CONFIG = {
       'procyon',
     ],
 
-    // Custom theme, applied to `procyon` theme
     customTheme: {
       primary: '#fc055b',
       secondary: '#219aaf',
@@ -222,9 +183,6 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-
-  // Optional Footer. Supports plain text or HTML.
-
 
   enablePWA: true,
 };
