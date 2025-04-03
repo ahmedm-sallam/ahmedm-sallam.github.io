@@ -4,13 +4,21 @@ const CONFIG = {
   github: {
     username: 'ahmedm-sallam', // Your GitHub org/user name. (This is the only required config)
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
   base: /Sallam-Portfolio/, // Update this to match your deployment URL, e.g., '/<REPO_NAME>/'
   projects: {
+    external: {
+      header: 'My Projects',
+      // To hide the `External Projects` section, keep it empty.
+      projects: [
+        {
+          title: 'Al-Maqraa',
+          description:
+            'Al-Maqraa aims to bridge the gap by providing a technologically advanced solution that utilizes speech recognition and analysis to objectively evaluate Quranic recitations.',
+          imageUrl: '/Al-Maqraa.png', // Correct path assuming the file is in the public directory
+          link: 'https://al-maqraa.onrender.com/home',
+        },
+      ],
+    },
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
@@ -27,28 +35,6 @@ const CONFIG = {
         // Properties for manually specifying projects
         projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
-    },
-    external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
     },
   },
   seo: {
@@ -79,8 +65,7 @@ const CONFIG = {
     email: 'AhmedM.SallamIbrahim@Gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '/Ahmed_Sallam.pdf', // Corrected path: remove '/public'
   },
   skills: [
     'C++',
