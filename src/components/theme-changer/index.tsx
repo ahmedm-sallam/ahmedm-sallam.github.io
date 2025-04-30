@@ -114,17 +114,7 @@ const ThemeChanger = ({
   );
 };
 
-/**
- * Description: This component renders a description section for the portfolio.
- */
-const Description = () => {
-  return (
-    <div className="description-section">
-      <p className="text-base-content opacity-70">
-        Welcome to my portfolio! Here you can explore my projects, skills, and experiences.
-      </p>
-    </div>
-  );
-};
+
+
 
 export default ThemeChanger;
