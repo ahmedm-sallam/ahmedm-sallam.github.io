@@ -6,7 +6,7 @@ import { createHtmlPlugin } from 'vite-plugin-html';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: CONFIG.base || '/', // Ensure this matches your deployment URL
+  base: CONFIG.base || '/Sallam-Portfolio/', // Ensure this matches your deployment URL
   plugins: [
     react(),
     createHtmlPlugin({
@@ -27,8 +27,8 @@ export default defineConfig({
             },
             includeAssets: ['logo.png'],
             manifest: {
-              name: 'Portfolio',
-              short_name: 'Portfolio',
+              name: 'Sallam Portfolio',
+              short_name: 'Sallam Portfolio',
               description: 'Personal Portfolio',
               icons: [
                 {
