@@ -4,7 +4,7 @@ const CONFIG = {
   github: {
     username: 'ahmedm-sallam', // Your GitHub org/user name. (This is the only required config)
   },
-  base: /Sallam-Portfolio/, // Update this to match your deployment URL, e.g., '/<REPO_NAME>/'
+  base: '/Sallam-Portfolio/', // Update this to match your deployment URL, e.g., '/<REPO_NAME>/'
   projects: {
     external: {
       header: 'My Projects',

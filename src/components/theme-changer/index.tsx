@@ -127,14 +127,4 @@ const Description = () => {
   );
 };
 
-// Add the Description component before "My Projects"
-const MyPortfolio = () => {
-  return (
-    <div>
-      <Description />
-      {/* ...existing code for My Projects... */}
-    </div>
-  );
-};
-
 export default ThemeChanger;
