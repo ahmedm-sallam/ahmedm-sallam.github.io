@@ -6,7 +6,7 @@ import { createHtmlPlugin } from 'vite-plugin-html';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: CONFIG.base || '/Sallam-Portfolio/', // Ensure this matches your deployment URL
+  base: CONFIG.base || '/', // Updated to match your new deployment URL
   plugins: [
     react(),
     createHtmlPlugin({

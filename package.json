@@ -1,5 +1,4 @@
-{
-  "name": "@ahmedm-sallam/Sallam-Portfolio",
+{  "name": "@ahmedm-sallam/portfolio",
   "description": "Create an automatic portfolio based on GitHub profile",
   "version": "3.1.0",
   "type": "module",
@@ -7,10 +6,10 @@
   "author": "arifszn",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmedm-sallam/Sallam-Portfolio.git"
+    "url": "https://github.com/ahmedm-sallam/ahmedm-sallam.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/ahmedm-sallam/Sallam-Portfolio/issues"
+    "url": "https://github.com/ahmedm-sallam/ahmedm-sallam.github.io/issues"
   },
   "scripts": {
     "dev": "vite",

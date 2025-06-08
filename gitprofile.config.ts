@@ -1,20 +1,19 @@
 // gitprofile.config.ts
 
-const CONFIG = {
-  github: {
+const CONFIG = {  github: {
     username: 'ahmedm-sallam', // Your GitHub org/user name. (This is the only required config)
+    repo: 'ahmedm-sallam.github.io', // Your GitHub repository name
   },
-  base: '/Sallam-Portfolio/', // Update this to match your deployment URL, e.g., '/<REPO_NAME>/'
+  base: '/', // Base URL for GitHub Pages
   projects: {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
+      projects: [        {
           title: 'Al-Maqraa',
           description:
             'Al-Maqraa aims to bridge the gap by providing a technologically advanced solution that utilizes speech recognition and analysis to objectively evaluate Quranic recitations.',
-          imageUrl: '/Sallam-Portfolio/Al-Maqraa.png', // Prepend the base URL
+          imageUrl: '/Al-Maqraa.png', // Updated URL path
           link: 'https://al-maqraa.onrender.com/home',
         },
       ],
@@ -63,9 +62,8 @@ const CONFIG = {
     website: '',
     phone: '+201093854620',
     email: 'AhmedM.SallamIbrahim@Gmail.com',
-  },
-  resume: {
-    fileUrl: '/Sallam-Portfolio/Ahmed_Sallam.pdf', // Replace <your-deployed-domain> with your actual domain
+  },  resume: {
+    fileUrl: '/Ahmed_Sallam.pdf', // Updated URL path
   },
   skills: [
     'C++',
@@ -122,7 +120,7 @@ const CONFIG = {
     limit: 0, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-XXXXXXXXXX', // Replace with your Google Analytics ID
   },
   hotjar: {
     id: '',
